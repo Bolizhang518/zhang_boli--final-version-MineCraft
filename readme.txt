@@ -1,0 +1,10 @@
+Boli zhang
+     the default main view are bar chart and pie chart. The bar chart shows the total time spent on each activity in all servers,(such as: BlockBreak , BlockPlace, Kicks, killed by, logins, death, chat, crafted items) and the pie chart show the proportion betwen each server.I also provide options function for the pie chart, if you move mouse to the pie chart and point any section in th pie chart, then it will shows all data for this particular server,(such as number of BlockBreak, Kicks, Killedby.etc) and bar chart will update to show the data for this server. since each color in the pie chart represent one server, as you see, I have 3 servers in my subset of the data. I also provide option function for bar chart, the user could use mouse to point any rectangle in the bar chart, and the data bar will shows the this specific activity distribution proportion in each server.for example: we point to 'Kicks'bar, the data bar will shows serverA happend 26 times and 90% happend in serverA. at the meantime, the pie chart will also visualization the distribution proportion by graph.
+     On the second page, I have a multi-series line chart interactive. it shows all the activity trend via time line. on the right hand side you can simply chose which activity data you want to look. on the bottom of the line chart you can interactively specify the time range to show the data over. 
+
+Reference :   jQuery++ by Bitovi, D3
+Open source : BookBlock: A Content Flip Plugin by Pedro Botelho 
+              DashBoard By NPashaP
+              line chart interactive by DStruths 
+
+Something may earn extra credit : since I have backgroud, in order to make the font easier to read, I'v used font shadow for the font.  the bookblock also make user feel interesting. and the background also related with the material. 
